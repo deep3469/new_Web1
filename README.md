@@ -1,1 +1,147 @@
-# new_Web1
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sabeen Kishan | Web Developer</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f8f9fa;
+      color: #333;
+    }
+
+    header {
+      text-align: center;
+      background: #2c3e50;
+      color: white;
+      padding: 40px 20px 30px;
+    }
+
+    header img {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid white;
+      margin-bottom: 15px;
+    }
+
+    h1 {
+      margin: 10px 0 5px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      border-bottom: 2px solid #eee;
+      padding-bottom: 6px;
+      color: #2c3e50;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    a {
+      color: #007bff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background: #2c3e50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .button:hover {
+      background: #34495e;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #2c3e50;
+      color: white;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 600px) {
+      header img {
+        width: 100px;
+        height: 100px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="sabeen.jpg.jpeg" alt="Sabeen Kishan" />
+    <h1>Sabeen Kishan</h1>
+    <p>Web Developer & Designer</p>
+  </header>
+
+  <div class="container">
+    <section>
+      <h2>About Me</h2>
+      <p>Hi, I'm Sabeen. I build clean, modern, and responsive websites. I enjoy solving problems with code and creating great user experiences.</p>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML5, CSS3</li>
+        <li>JavaScript, React</li>
+        <li>Responsive Design</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <ul>
+        <li>Personal Blog Website</li>
+        <li>E-commerce Frontend Template</li>
+        <li>Responsive Portfolio Site</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:sabeenkishan@gmail.com">sabeenkishan@gmail.com</a></p>
+      <p>Address: Unyang, Gimpo City</p>
+      <button class="button" onclick="contactMessage()">Click to Contact Me</button>
+    </section>
+  </div>
+
+  <footer>
+    &copy; 2025 Sabeen Kishan
+  </footer>
+
+  <script>
+    function contactMessage() {
+      alert("Thank you! I'll be in touch soon.");
+    }
+  </script>
+
+</body>
+</html>
